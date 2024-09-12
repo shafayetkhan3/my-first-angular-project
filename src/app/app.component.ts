@@ -11,4 +11,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'my-first-angular-project';
+  message: string = '';
+
+  showMessage() {
+    this.message = 'Hi Likhon, thank you';
+  }
 }

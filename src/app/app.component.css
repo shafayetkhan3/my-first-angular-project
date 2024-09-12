@@ -1,0 +1,22 @@
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  
+  p {
+    margin-top: 80px;
+    font-size: 80px;
+    color:black;
+  }
+  div {
+    background-color: yellowgreen;
+  }
+  
